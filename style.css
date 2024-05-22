@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ADD8E6; /* 浅蓝色背景 */
+  color: #000000; /* 黑色文本 */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/cartoon-rainbow.jpg'); /* 卡通彩虹背景 */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background-color: #FFD700; /* 亮黄色 */
+  color: #D2691E; /* 姜黄色文本 */
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.homepage {
+  background-color: rgba(255, 250, 205, 0.8); /* 柔和的黄色 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.main-title {
+  font-size: 36px; /* 大字体 */
+  color: #ffffff; /* 白色文本 */
+  margin-bottom: 10px;
+  text-shadow: -1px -1px 0 #D2691E, 1px -1px 0 #D2691E, -1px 1px 0 #D2691E, 1px 1px 0 #D2691E; /* 姜黄色边框 */
+}
+
+.sub-title {
+  font-size: 24px; /* 小一些的字体 */
+  color: #ffffff; /* 白色文本 */
+  margin-bottom: 20px;
+  text-shadow: -1px -1px 0 #D2691E, 1px -1px 0 #D2691E, -1px 1px 0 #D2691E, 1px 1px 0 #D2691E; /* 姜黄色边框 */
+}
+
+.login-register {
+  background-color: rgba(255, 250, 205, 0.8); /* 柔和的黄色 */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-register h1 {
+  color: #D2691E; /* 姜饼棕色 */
+  margin-bottom: 20px;
+}
+
+input {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 1px solid #D2691E; /* 姜饼棕色 */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #FFA500; /* 深黄色 */
+  color: #000000; /* 黑色文本 */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #FFD700; /* 亮黄色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
