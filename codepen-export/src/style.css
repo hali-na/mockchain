@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ADD8E6; /* 浅蓝色背景 */
+  color: #000000; /* 黑色文本 */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #FFD700; /* 亮黄色 */
+  color: #000000; /* 黑色文本 */
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header #logo {
+  max-width: 100px; /* 控制logo的最大宽度 */
+  height: auto;
+  margin-right: 20px; /* 调整logo和标题之间的间距 */
+}
+
+header h1 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  background-color: #FFA500; /* 深黄色 */
+  color: #000000; /* 黑色文本 */
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #FFA500; /* 深黄色 */
+  color: #000000; /* 黑色文本 */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background-color: #FFFACD; /* 柔和的黄色 */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #D2691E; /* 姜饼棕色 */
+}
+
+.register-page, .login-page, .recording-page, .video-pool-page, .profile-page, .chat-page {
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #D2691E; /* 姜饼棕色 */
+}
+
+h2 {
+  background-color: #FFD700; /* 亮黄色 */
+  padding: 10px;
+  text-align: center;
+}
+
+.video-container {
+  background-color: #FFFACD; /* 柔和的黄色 */
+  border: 1px solid #D2691E; /* 姜饼棕色 */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider-value {
+  margin-left: 10px;
+}
